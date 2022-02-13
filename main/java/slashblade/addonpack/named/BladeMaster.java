@@ -155,7 +155,7 @@ public class BladeMaster
 				ItemSlashBladeNamed.NamedBlades.add(reqiredStr);
 			}
 
-			required.setItemDamage(OreDictionary.WILDCARD_VALUE);
+			//required.setItemDamage(OreDictionary.WILDCARD_VALUE);
 
 			
 			AddonPack.addRecipe(KEY,
@@ -195,7 +195,7 @@ public class BladeMaster
 				ItemSlashBladeNamed.NamedBlades.add(reqiredStr);
 			}
 			
-			required.setItemDamage(OreDictionary.WILDCARD_VALUE);
+			//required.setItemDamage(OreDictionary.WILDCARD_VALUE);
 
 			
 			AddonPack.addRecipe(KEY,
@@ -236,7 +236,7 @@ public class BladeMaster
 				ItemSlashBladeNamed.NamedBlades.add(reqiredStr);
 			}
 			
-			required.setItemDamage(OreDictionary.WILDCARD_VALUE);
+			//required.setItemDamage(OreDictionary.WILDCARD_VALUE);
 			
 
 			AddonPack.addRecipe(KEY,

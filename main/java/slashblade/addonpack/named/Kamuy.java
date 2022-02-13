@@ -184,7 +184,7 @@ public class Kamuy
 				ItemSlashBladeNamed.NamedBlades.add(reqiredStr);
 			}
 
-			required.setItemDamage(OreDictionary.WILDCARD_VALUE);
+			//required.setItemDamage(OreDictionary.WILDCARD_VALUE);
 			
 			AddonPack.addRecipe(
 				KEY,
@@ -216,7 +216,7 @@ public class Kamuy
 			ItemSlashBladeNamed.NamedBlades.add(reqiredStr);
 		}
 
-		required.setItemDamage(OreDictionary.WILDCARD_VALUE);
+		//required.setItemDamage(OreDictionary.WILDCARD_VALUE);
 		
 		// ===== 神威刀「ワッカ」 =====
 		{

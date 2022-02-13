@@ -71,14 +71,12 @@ public class FlareSpiral extends SpecialAttackBase
 
 			List<Entity> list = world.getEntitiesInAABBexcluding(player, bb, EntitySelectorAttackable.getInstance());
 
-			if (!stack.isEmpty()) {
-				if (!list.isEmpty())
-					StylishRankManager.setNextAttackType(player, AttackType);
+			if (!list.isEmpty())
+				StylishRankManager.setNextAttackType(player, AttackType);
 			
-				for (Entity curEntity : list) {
-					blade.attackTargetEntity(stack, curEntity, player, true);
-					player.onCriticalHit(curEntity);
-				}
+			for (Entity curEntity : list) {
+				blade.attackTargetEntity(stack, curEntity, player, true);
+				player.onCriticalHit(curEntity);
 			}
       
 			int rank = StylishRankManager.getStylishRank(player);

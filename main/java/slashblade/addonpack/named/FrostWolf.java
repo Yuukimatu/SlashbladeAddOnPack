@@ -110,7 +110,7 @@ public class FrostWolf
 				ItemSlashBladeNamed.NamedBlades.add(reqiredStr);
 			}
 
-			required.setItemDamage(OreDictionary.WILDCARD_VALUE);
+			//required.setItemDamage(OreDictionary.WILDCARD_VALUE);
 
 			AddonPack.addRecipe(KEY,
 								new RecipeAwakeBlade(
@@ -147,7 +147,7 @@ public class FrostWolf
 				ItemSlashBladeNamed.NamedBlades.add(reqiredStr);
 			}
 			
-			required.setItemDamage(OreDictionary.WILDCARD_VALUE);
+			//required.setItemDamage(OreDictionary.WILDCARD_VALUE);
 
 			AddonPack.addRecipe(KEY,
 								new RecipeAwakeBlade(

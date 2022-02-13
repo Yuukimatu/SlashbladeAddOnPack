@@ -67,7 +67,6 @@ public class Yukari
 		ItemStack required = SlashBlade.getCustomBlade(Tukumo.YuzukiTukumo);
 		NBTTagCompound tag = ItemSlashBlade.getItemTagCompound(required);
 		ItemSlashBlade.KillCount.set(tag, 1000);
-		required.addEnchantment(Enchantments.FIRE_ASPECT, 1);
 
 		if (Config.isRegistRequiredBlade()) {
 			String reqiredStr = NAME + ".reqired";
@@ -75,7 +74,7 @@ public class Yukari
 			ItemSlashBladeNamed.NamedBlades.add(reqiredStr);
 		}
 		
-		required.setItemDamage(OreDictionary.WILDCARD_VALUE);
+		//required.setItemDamage(OreDictionary.WILDCARD_VALUE);
 		
 		
 		AddonPack.addRecipe(KEY,

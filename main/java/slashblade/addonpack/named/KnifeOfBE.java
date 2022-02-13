@@ -61,7 +61,7 @@ public class KnifeOfBE
 		ItemStack required = SlashBlade.getCustomBlade("slashbladeWhite");
 		NBTTagCompound tag = ItemSlashBlade.getItemTagCompound(required);
 
-		required.setItemDamage(OreDictionary.WILDCARD_VALUE);
+		//required.setItemDamage(OreDictionary.WILDCARD_VALUE);
     
 		AddonPack.addRecipe(KEY,
 							new RecipeAwakeBlade(

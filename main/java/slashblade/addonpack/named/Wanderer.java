@@ -89,7 +89,7 @@ public class Wanderer
 			ItemSlashBladeNamed.NamedBlades.add(reqiredStr);
 		}
 		
-		required.setItemDamage(OreDictionary.WILDCARD_VALUE);
+		//required.setItemDamage(OreDictionary.WILDCARD_VALUE);
 
 		
 		AddonPack.addRecipe(KEY,

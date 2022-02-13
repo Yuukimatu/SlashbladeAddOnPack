@@ -63,10 +63,13 @@ Copy to ``mods`` folder.
 
 Original : [Ferne](http://forum.minecraftuser.jp/viewtopic.php?f=13&t=2150)  
 Arranged for 1.11.2 : [is3000nx](https://twitter.com/is3000nx)
+Forked for 1.12.2 : [Yuukimatu](https://twitter.com/channel_Yuuki)
 
 ## 連絡先 / Contact
 
 https://twitter.com/is3000nx
+
+https://twitter.com/channel_Yuuki
 
 In Japanese as possible, please.
 
